@@ -12,7 +12,7 @@
         console.log('test');
         
         fetch('http://localhost:3000')
-            .then(res => res.json)
+            .then(res => res.json())
             .then(console.log)
             .catch(e => {
                 console.log('błąd', e);
