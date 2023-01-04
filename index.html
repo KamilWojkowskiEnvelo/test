@@ -8,5 +8,15 @@
 </head>
 <body>
     <h1>siema 2</h1>
+    <script>
+        console.log('test');
+        
+        fetch('http://localhost:3000')
+            .then(res => res.json)
+            .then(console.log)
+            .catch(e => {
+                console.log('błąd', e');
+        });
+    </script>
 </body>
 </html>
